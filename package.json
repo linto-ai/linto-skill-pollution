@@ -1,0 +1,26 @@
+{
+  "name": "@linto-ai/node-red-linto-pollution",
+  "version": "0.1.0",
+  "description": "Linto skill that give pollution for a specific location",
+  "author": "yhoupert@linagora.com",
+  "license": "AGPL-3.0-or-later",
+  "node-red": {
+    "nodes": {
+      "linto-skill-pollution": "linto-skill-pollution.js"
+    }
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "@linto-ai/linto-components": "^0.0.1"
+  },
+  "homepage": "https://linto.ai/",
+  "directories": {
+    "linto": "linto"
+  },
+  "keywords": [
+    "linto",
+    "node-red",
+    "skill",
+    "pollution"
+  ]
+}

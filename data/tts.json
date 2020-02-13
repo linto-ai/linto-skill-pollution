@@ -1,0 +1,34 @@
+{
+  "en-US": {
+    "say": {
+      "threshold": " has a pollution rate : ",
+      "error_city_unfound": " has not been found.",
+      "error_no_city": "No city has been detected",
+      "error_api": "Could not retrieve the pollution data",
+      "air_quality": {
+        "very_good": "very good",
+        "good": "good",
+        "average": "average",
+        "poor": "poor",
+        "bad": "bad",
+        "very_bad": "very bad"
+      }
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "threshold": " a un seuil de pollution : ",
+      "error_city_unfound": " n'a pas été trouvée.",
+      "error_no_city": "Aucune ville détecter",
+      "error_api": "Impossible de récupérer les données de pollution",
+      "air_quality": {
+          "very_good": "très bien",
+          "good": "bon",
+          "average": "moyen",
+          "poor": "médiocre",
+          "bad": "mauvais",
+          "very_bad": "très mauvais"
+      }
+    }
+  }
+}
