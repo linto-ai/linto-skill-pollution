@@ -20,7 +20,10 @@ module.exports = async function (msg) {
   }
 
   if (threshold) {
-    return `${location}${tts.say.threshold}${threshold}`
+    return {
+      phonetic: `${location}${tts.say.threshold.phonetic}${threshold.phonetic}`,
+      text: `${location}${tts.say.threshold.text}${threshold.text}`
+    }
   }
   return `${location}${tts.say.error_city_unfound}`
 }
