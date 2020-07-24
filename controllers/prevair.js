@@ -21,13 +21,19 @@ module.exports = async function (msg) {
 
   if (threshold) {
     return {
-      phonetic: `${location}${tts.say.threshold.phonetic}${threshold.phonetic}`,
-      text: `${location}${tts.say.threshold.text}${threshold.text}`
+      say: {
+        phonetic: `${location}${tts.say.threshold.phonetic}${threshold.phonetic}`,
+        text: `${location}${tts.say.threshold.text}${threshold.text}`
+      }
     }
   }
-  return `${location}${tts.say.error_city_unfound}`
+  return {
+    say: {
+      phonetic: `${location} ${tts.say.error_city_unfound.phonetic}`,
+      text: `${location} ${tts.say.error_city_unfound.text}`
+    }
+  }
 }
-
 async function getAirQuality(city) {
   let tts = this.skillConfig[this.skillConfig.language]
 
