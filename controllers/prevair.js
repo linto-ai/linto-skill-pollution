@@ -16,7 +16,7 @@ module.exports = async function (msg) {
     threshold = await getAirQuality.call(this, this.config.defaultCity.toUpperCase())
     location = this.config.defaultCity
   } else {
-    return tts.say.error_no_city
+    return { say: tts.say.error_no_city }
   }
 
   if (threshold) {
