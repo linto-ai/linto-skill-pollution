@@ -1,29 +1,30 @@
 ##intent|pollution|fr
 - quel est le niveau de pollution à [paris](location)
-- temps a [lens](location)
+- temps à [lens](location)
 - pollution à [toulouse](location)
-- donne moi la pollution à [barcelone](location)
+- donne-moi la pollution à [barcelone](location)
 - il fait quel temps à [toulouse](location)
 - est ce qu'il pleut à [toulouse](location)
 - quel est la pollution à [phoenix](location)
-- pollution à [bollywood](location)
-- la pollution est elle bonne a [saint brice](location)
-- donne moi la pollution de [paris](location)
+- pollution à [hollywood](location)
+- la pollution est elle bonne à [saint brice](location)
+- donne-moi la pollution de [paris](location)
 - donne-moi la pollution à [marseille](location)
 - donne-moi le seuil de pollution à [grenoble](location)
 - quelle est la pollution à [grenoble](location)
 - quel est le niveau de pollution à [strasbourg](location)
 - donne-moi le niveau de pollution à [paris](location)
 - comment est la pollution à [hikone](location)
-- la pollution à [hakone](location) est elle élevé
-- [bordeaux](location) est-elle pollué
-- [brest](location) est-elle pollué
-- donne moi le niveau de pollution à [londre](location)
-- donne moi le niveau de pollution à [lille](location)
+- la pollution à [hakone](location) est-elle élevée
+- [bordeaux](location) est-elle polluée
+- [brest](location) est-elle polluée
+- donne-moi le niveau de pollution à [londre](location)
+- donne-moi le niveau de pollution à [lille](location)
 - est ce que l’air est fortement pollué à [marseille](location)
 - est ce que l’air est pollué à [lyon](location)
 - quel est le niveau de pollution à [toulouse](location)
 - quel est le niveau de pollution à [paris](location)
+
 ##intent|pollution|en
 - what's the pollution in [paris](location)
 - pollution at [toulouse](location)
