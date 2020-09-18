@@ -4,6 +4,7 @@
 - donne-moi la pollution à [barcelone](location)
 - quelle est la pollution à [phoenix](location)
 - la pollution est elle acceptable à [saint brice](location)
+- la pollution est elle supportable à [saint brice](location)
 - la pollution est elle mauvaise à [saint brice](location)
 - donne-moi la pollution de [paris](location)
 - donne-moi le seuil de pollution à [grenoble](location)
