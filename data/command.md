@@ -14,7 +14,8 @@
 - [brest](location) est-elle polluée
 - est-ce que l'air est fortement pollué à [marseille](location)
 - est-ce que l'air est pollué à [lyon](location)
-
+- la pollution est elle supportable à [saint brice](location)
+ 
 ##intent|pollution|en
 - what's the pollution in [paris](location)
 - pollution at [toulouse](location)
