@@ -16,15 +16,24 @@ module.exports = async function (msg) {
     threshold = await getAirQuality.call(this, this.config.defaultCity.toUpperCase())
     location = this.config.defaultCity
   } else {
-    return tts.say.error_no_city
+    return { say: tts.say.error_no_city }
   }
 
   if (threshold) {
-    return `${location}${tts.say.threshold}${threshold}`
+    return {
+      say: {
+        phonetic: `${location}${tts.say.threshold.phonetic}${threshold.phonetic}`,
+        text: `${location}${tts.say.threshold.text}${threshold.text}`
+      }
+    }
   }
-  return `${location}${tts.say.error_city_unfound}`
+  return {
+    say: {
+      phonetic: `${location} ${tts.say.error_city_unfound.phonetic}`,
+      text: `${location} ${tts.say.error_city_unfound.text}`
+    }
+  }
 }
-
 async function getAirQuality(city) {
   let tts = this.skillConfig[this.skillConfig.language]
 
